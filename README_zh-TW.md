@@ -46,7 +46,9 @@ cd /d YOUR_PROJECT_FOLDER_PATH
 python pcrd_news.py
 REM pause
 ```
-接著，在`launch_bat.vbs`中，同樣把 `YOUR_PROJECT_FOLDER_PATH`也取代掉
+接著，在`launch_bat.vbs`中，同樣把 `YOUR_PROJECT_FOLDER_PATH\pcrd_news_crawler.bat`的 `YOUR_PROJECT_FOLDER_PATH` 也取代掉
+
+`\pcrd_news_crawler.bat`要留著
 
 按下`開始 + R`, 輸入“taskschd.msc“ 開啟 **工作排程器**　或是Windows搜尋工作排程器
 
