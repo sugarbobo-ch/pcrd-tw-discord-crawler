@@ -50,7 +50,8 @@ cd /d YOUR_PROJECT_FOLDER_PATH
 python pcrd_news.py
 REM pause
 ```
-Second, in launch_bat.vbs, do the same action to `YOUR_PROJECT_FOLDER_PATH`
+Second, in launch_bat.vbs, do the same action to `YOUR_PROJECT_FOLDER_PATH\pcrd_news_crawler.bat`
+remember do not replace `\pcrd_news_crawler.bat`
 Third, Press `Windows + R`, and type “taskschd.msc“ to open **Task Scheduler**.
 In **Triggers** tab, set when the task will start, the news usually updated at 12:00 and 17:00 (UTC+08:00) during the week.
 In **Actions** tab, create a new action, start a program with your `launch_bat.vbs` path.
