@@ -4,7 +4,7 @@
 > A crawler for mobile game "Princess Connect Re:Dive" announcements in Taiwan server, which can post the latest annoucement in discord embed block to discord channels via webhook.
 
 # README.md
-- [繁體中文 (zh_TW)]()
+- [繁體中文 (zh_TW)](https://github.com/jinan-tw/pcrd-tw-discord-crawler/blob/main/README_zh-TW.md)
 
 # Getting Started
 ## Requirements
