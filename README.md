@@ -12,7 +12,7 @@
 - Additional library listed in requirements.txt
 
 ## Installation
-To run PCRD-TW-webhook-crawler, you need to install the packages in requirements.txt
+To run PCRD-TW-webhook-crawler, you need to install the library in requirements.txt
 
 ```
 pip install -r requirements.txt
