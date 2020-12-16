@@ -18,6 +18,21 @@ To run PCRD-TW-webhook-crawler, you need to install the packages in requirements
 pip install -r requirements.txt
 ```
 
+## Configuration
+Open the file "pcrd_news.py", in 
+```py
+webhook_links = []
+```
+Insert your discord webhook link in string, like:
+```py
+webhook_links = [ 'https://discordapp.com/api/webhooks/.../...']
+```
+If you have more than one link, use comma to separate them
+```py
+webhook_links = [ 'https://discordapp.com/api/webhooks/.../...',
+                  'https://discordapp.com/api/webhooks/.../...'
+                ]
+```
 ## Usage
 PCRD-TW-webhook-crawler can run with command:
 ```
